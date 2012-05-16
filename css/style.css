@@ -1,0 +1,51 @@
+/*	============================================================
+	Style.css - last modified 15/05/2012 14:30
+	============================================================
+	
+ *	Keep things alphabatised for readability, and leave comments in.
+ *	We can always minified things later
+ *	
+ */
+
+
+/* 	============================================================
+	Imports
+	============================================================ */
+
+/* CSS Normalize, resets the page and defaults everything nicely */
+@import url('normalize.css');
+
+/* Some Google Fonts I might use */
+/*@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700");*/
+
+/* 	============================================================
+	Base (html and body)
+	============================================================ */
+html { 
+	color: #333; /* Black on white is seen as too harsh, #333 seems better */
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 16px;
+}
+
+/* 	============================================================
+	Links 
+	============================================================ */
+
+a {
+	color: #02478E;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	position: relative;
+	top: 1px;
+}
+
+/* 	============================================================
+	Layout
+	============================================================ */
